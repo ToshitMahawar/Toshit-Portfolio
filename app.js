@@ -13,7 +13,7 @@ app.get("/portfolio",(req,res)=>{
     res.render("index.ejs");
 });
 app.get("/project",(req,res)=>{
-    res.send("project link successfully generated");
+    res.render("");
 })
 
 app.listen(port ,()=>{
