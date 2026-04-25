@@ -121,4 +121,5 @@ head{
 }
 .Email .number .social{
   font-size: larger;
+  font-weight:bold;
 }
