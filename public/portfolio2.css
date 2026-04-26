@@ -1,3 +1,28 @@
 body{
-  background:linear-Gradient(&#00A6ED,&#7FB800,&#F686BD);
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(270deg, #2CD3E1, #F266AB, #FF85BB);
+    background-size: 600% 600%;
+    animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+a{
+    text-decoration:none;
+    font-size:40px;
+    font-family:cursive;
+    color:gold;
+}
+span{
+    font-weight:bold;
+    font-size: 40px;
+}
+.fa-arrow-right{
+    font-size: 50px;
+    
 }

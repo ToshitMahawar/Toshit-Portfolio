@@ -1,5 +1,5 @@
 
-.BaseBar{
+.navBar{
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
 }
@@ -20,7 +20,7 @@
 }
 .contact{
     text-decoration:none;
-    margin:50px;
+    margin:80px;
     font-size: larger;
 }
 H1{
